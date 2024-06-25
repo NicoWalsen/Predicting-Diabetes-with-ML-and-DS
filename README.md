@@ -25,36 +25,34 @@ Project Structure
 Files
 
 diabetes.csv: This file contains all the medical records and outcomes.
-Diabetes.ipynb: Our Jupyter notebook where all the magic happens. It includes code for loading data, exploring it, preprocessing, building models, and evaluating them.
-Exploratory Data Analysis (EDA)
+Plots Diabetes POWER BI.png: You can find summarized visuals among some important features and output.
+Diabetes.ipynb: Our Jupyter notebook where all Analysis and Predictions happens. It includes code for loading data, exploring it, preprocessing, building models, and evaluating them.
+Steps performed:
+
+1) Exploratory Data Analysis (EDA)
 In the EDA section of our notebook, we:
-
 Visualize distributions and relationships between variables.
-
 Identify any missing values and outliers.
 Summarize key statistics for each feature.
 
-Data Preprocessing
-
-
+2) Data Preprocessing
 To prepare our data, we:
 Handle missing values
 Scale features appropriately.
 Split the data into training and testing sets.
-Model Building
-We try out several machine learning models to see which one works best:
 
-Logistic Regression
-Decision Tree
-Random Forest
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
-Evaluation
+3)Model Building
+We try out several machine learning models to see which one works best:
+-Logistic Regression
+-Decision Tree
+-Random Forest
+-Support Vector Machine (SVM)
+-K-Nearest Neighbors (KNN)
+
+4)Evaluation
 To evaluate our models, we use metrics like accuracy, precision, recall, and F1-score. We also look at confusion matrices and ROC curves to get a better picture of each model’s performance.
 
 Conclusion
-
-
 This project showcases how different machine learning models can be used to predict diabetes based on diagnostic measurements. Through thorough analysis and model evaluation, we pinpoint the most effective model for our task.
 
 Future Work
